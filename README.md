@@ -7,8 +7,8 @@
 - **PostgreSQL:** Postgres is used as a Data Warehouse
 - **AWS S3:** Amazon Simple Storage Service (S3) is used as a Data Lake
 - **Git (Teamwork):** Git is used for collaboration between teammates 
-![Flow and components](https://github.com/hoanguyen071710/glorious-data-pipeline/assets/76463109/94a63875-8e78-4653-9617-f91077aacafe)
 
+![image](https://github.com/DangMinhHao/glorious-data-pipeline/assets/108931204/6ffd43c6-06e7-41fb-9b55-d28e2e9614ae)
 
 ## Situation
 In this project, we are simulating a real stock platform database by using Faker library to generate stock data into MySQL. ETL pipeline is implemented to snapshot daily data and load into Data Lake, then applying Full loading and Incremental loading patterns to capture latest records and finally load into Data Warehouse.
@@ -23,10 +23,7 @@ Finally, cron is used to set job for this pipeline. We decided to used Cron inst
 
 ![Data Model](https://github.com/hoanguyen071710/glorious-data-pipeline/assets/76463109/f0c68dd3-66ca-40d6-b9d2-22b317a1c8c8)
 
-## Design
-In our data model design, we have the following considerations:
-- The user table is designed to enable the Soft Delete Pattern for handling data deletions.
-- The stock table does not have a change indicator column, so we must use the Hard Delete Pattern to handle updates.
+## Data Warehouse Design
 
 ![Data Warehouse Entity Relationship Diagram (ERD)](https://github.com/hoanguyen071710/glorious-data-pipeline/assets/76463109/951c1c1f-fc49-4a05-8171-5b16f8f57a2f)
 
