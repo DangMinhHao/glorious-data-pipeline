@@ -9,7 +9,7 @@
 
 ![image](https://github.com/DangMinhHao/glorious-data-pipeline/assets/108931204/6ffd43c6-06e7-41fb-9b55-d28e2e9614ae)
 
-## Situation
+## Scenario
 In this project, we are simulating a real stock platform database by using Faker library to generate stock data into MySQL. ETL pipeline is implemented to snapshot daily data and load into Data Lake, then applying Full loading and Incremental loading patterns to capture latest records and finally load into Data Warehouse.
 
 We simulated 2 real life scenarios in this project:
