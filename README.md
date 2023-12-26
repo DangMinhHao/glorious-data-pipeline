@@ -3,7 +3,6 @@
 ## Infrastructure:
 - **AWS EC2:** EC2 is used to create a Virtual Machine and we connect our local computer to VM by using SSH method
 - **RDS (Database):** MSQL is hosted on AWS RDS as a operational database
-- **AWS EC2 (VM):** Amazon Elastic Compute Cloud (EC2) is utilized to run the necessary services and applications.
 - **PostgreSQL:** Postgres is used as a Data Warehouse
 - **AWS S3:** Amazon Simple Storage Service (S3) is used as a Data Lake
 - **Git (Teamwork):** Git is used for collaboration between teammates 
