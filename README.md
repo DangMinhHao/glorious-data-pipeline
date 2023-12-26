@@ -30,6 +30,8 @@ Finally, cron is used to set job for this pipeline. We decided to used Cron inst
 ## Tasks
 The project encompasses the following major tasks:
 - Generate fake data using the Faker library and insert it into the RDS database.
+- Design Data Model for operational database and data warehouse
+- Snapshot daily data and load into Data Lake
+- Capture latest records and load into Data Warehouse
 - Set up cron jobs to schedule and automate data generation and ETL processes.
 - Utilize SQLAlchemy and Boto3 for efficient data upload and download between different components.
-- Handle datetime conversions, considering both UTC and Asia/Ho_Chi_Minh (HCM) timezones.
